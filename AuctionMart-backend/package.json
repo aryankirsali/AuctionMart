@@ -1,0 +1,26 @@
+{
+  "name": "auction-mart-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cloudinary": "^1.37.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.11.1",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.6.1",
+    "stripe": "^9.16.0",
+    "twilio": "^4.11.1",
+    "validator": "^13.9.0"
+  }
+}
