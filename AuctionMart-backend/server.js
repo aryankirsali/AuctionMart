@@ -49,7 +49,7 @@ app.post("/api/send-bid-message", async (req, res) => {
   const { name, phoneNumber, email, bid } = req.body;
 
   // Configure the Twilio client
-  const client = twilio("AC21a5665f1d4cb5d9d96892ce261e34c3", "fd803a2d0eb88f90471e3359903b0257");
+  const client = twilio("Twilio Account SID", "Twilio Auth Token");
 
   // Configure the message
   const messageBody = `New Bid:\nName: ${name}\nPhone Number: ${phoneNumber}\nEmail: ${email}\nBid (₹): ${bid}`;
